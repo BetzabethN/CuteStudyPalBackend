@@ -1,0 +1,32 @@
+{
+  "name": "cutestudypal",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "engines": {
+    "node": "14.x"
+  },
+  "scripts": {
+    "start": "node server/index.js",
+    "build": "cd client && npm install && npm run build"
+  },
+
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/BetzabethN/CuteStudyPal.git"
+  },
+
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/BetzabethN/CuteStudyPal/issues"
+  },
+
+  "homepage": "https://github.com/BetzabethN/CuteStudyPal#readme",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+
+  
+}
