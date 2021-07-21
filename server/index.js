@@ -11,7 +11,7 @@ app.use(express.static(path.resolve(__dirname, '../client/build')));
 
 
 // handle GEt requests to /api route
-app.get("/api", (req, res) => {
+app.get("/", (req, res) => {
     res.json({message: "Hello from server!"});
 });
 
@@ -22,6 +22,6 @@ app.get('*', (req, res) => {
 });
 
 
-app.listen(PORT, () => {
-  console.log(`Server listening on ${PORT}`);
-});
+//app.listen(PORT, () => {
+  //console.log(`Server listening on ${PORT}`);
+//});
